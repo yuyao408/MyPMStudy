@@ -153,11 +153,20 @@
         <mxCell id="aP3v-ERWLr5_CWV40hyq-46" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="选择支付方式" vertex="1">
           <mxGeometry height="80" width="80" x="400" y="1840" as="geometry" />
         </mxCell>
-        <mxCell id="aP3v-ERWLr5_CWV40hyq-52" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aP3v-ERWLr5_CWV40hyq-51" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="defwrWUwGj-pmL_iFISh-2" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="2170" />
+            </Array>
+            <mxPoint x="600" y="1770" as="sourcePoint" />
+            <mxPoint x="500" y="2170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-47" parent="1" style="whiteSpace=wrap;html=1;" value="微信支付" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="defwrWUwGj-pmL_iFISh-1" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aP3v-ERWLr5_CWV40hyq-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-49" parent="1" style="whiteSpace=wrap;html=1;" value="支付宝支付" vertex="1">
           <mxGeometry height="60" width="120" x="380" y="2010" as="geometry" />
@@ -166,22 +175,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-51" parent="1" style="whiteSpace=wrap;html=1;" value="选择广告，默认综合最优广告" vertex="1">
-          <mxGeometry height="60" width="120" x="540" y="1990" as="geometry" />
+          <mxGeometry height="60" width="120" x="380" y="2140" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-56" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aP3v-ERWLr5_CWV40hyq-55" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-53" parent="1" style="whiteSpace=wrap;html=1;" value="刷新价格" vertex="1">
-          <mxGeometry height="60" width="120" x="540" y="2130" as="geometry" />
+          <mxGeometry height="60" width="120" x="380" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-58" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aP3v-ERWLr5_CWV40hyq-57" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-55" parent="1" style="whiteSpace=wrap;html=1;" value="下单" vertex="1">
-          <mxGeometry height="60" width="120" x="540" y="2270" as="geometry" />
+          <mxGeometry height="60" width="120" x="380" y="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="defwrWUwGj-pmL_iFISh-4" edge="1" parent="1" source="aP3v-ERWLr5_CWV40hyq-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="defwrWUwGj-pmL_iFISh-3" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP3v-ERWLr5_CWV40hyq-57" parent="1" style="whiteSpace=wrap;html=1;" value="弹出支付操作提示" vertex="1">
-          <mxGeometry height="60" width="120" x="540" y="2410" as="geometry" />
+          <mxGeometry height="60" width="120" x="380" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="defwrWUwGj-pmL_iFISh-3" parent="1" style="whiteSpace=wrap;html=1;" value="通过账户或扫码支付" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="2700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
